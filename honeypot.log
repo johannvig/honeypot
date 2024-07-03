@@ -1,0 +1,27 @@
+2024-07-03 22:21:08,307 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 22:21:08,307 [33mPress CTRL+C to quit[0m
+2024-07-03 22:21:08,309  * Restarting with stat
+2024-07-03 22:21:08,656  * Debugger is active!
+2024-07-03 22:21:08,661  * Debugger PIN: 815-570-422
+2024-07-03 22:21:27,593 127.0.0.1 - - [03/Jul/2024 22:21:27] "GET / HTTP/1.1" 200 -
+2024-07-03 22:21:27,755 127.0.0.1 - - [03/Jul/2024 22:21:27] "GET /static/styles.css HTTP/1.1" 200 -
+2024-07-03 22:21:27,757 127.0.0.1 - - [03/Jul/2024 22:21:27] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-07-03 22:21:27,770 127.0.0.1 - - [03/Jul/2024 22:21:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-03 22:22:19,915 Honeypot accessed: /honeypot3 | IP: 127.0.0.1 | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+2024-07-03 22:22:19,915 127.0.0.1 - - [03/Jul/2024 22:22:19] "GET /honeypot3 HTTP/1.1" 200 -
+2024-07-03 22:22:19,987 127.0.0.1 - - [03/Jul/2024 22:22:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-03 22:23:35,764 Honeypot accessed: /honeypot3 | IP: 127.0.0.1 | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+2024-07-03 22:23:35,765 127.0.0.1 - - [03/Jul/2024 22:23:35] "GET /honeypot3 HTTP/1.1" 200 -
+2024-07-03 22:25:44,260  * Detected change in 'C:\\xampp\\htdocs\\SAE4_new\\honeypot\\app.py', reloading
+2024-07-03 22:25:44,287  * Restarting with stat
+2024-07-03 22:25:44,704  * Debugger is active!
+2024-07-03 22:25:44,708  * Debugger PIN: 815-570-422
+2024-07-03 22:26:11,726 Honeypot accessed: /honeypot3 | IP: 127.0.0.1 | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+2024-07-03 22:26:11,726 127.0.0.1 - - [03/Jul/2024 22:26:11] "GET /honeypot3 HTTP/1.1" 200 -
+2024-07-03 22:26:11,767 127.0.0.1 - - [03/Jul/2024 22:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-03 22:26:12,766 Honeypot accessed: /honeypot3 | IP: 127.0.0.1 | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+2024-07-03 22:26:12,766 127.0.0.1 - - [03/Jul/2024 22:26:12] "GET /honeypot3 HTTP/1.1" 200 -
+2024-07-03 22:26:12,820 127.0.0.1 - - [03/Jul/2024 22:26:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-03 22:26:16,602 127.0.0.1 - - [03/Jul/2024 22:26:16] "GET / HTTP/1.1" 200 -
+2024-07-03 22:26:16,783 127.0.0.1 - - [03/Jul/2024 22:26:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
