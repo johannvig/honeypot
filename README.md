@@ -54,12 +54,20 @@ To set up and run this project locally, follow these steps:
 <p align="center">
   <img src="https://github.com/johannvig/honeypot/assets/102874093/8c21a71b-889e-459a-b7cf-811175985928" width="500" alt="Screenshot 2024-04-30 201142">
 </p>
+<p align="center">
+  <em>Picture 1: Homepage</em>
+</p>
 
 <p align="center">
   <img src="https://github.com/johannvig/honeypot/assets/102874093/543f2b81-e85c-4695-bd76-71724a2b6bf0" width="500" alt="Screenshot 2024-04-30 201142">
+</p>
+<p align="center">
+  <em>Picture 2: You have been captured by the trap</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/johannvig/honeypot/assets/102874093/57451315-42ea-4d20-a3d2-de2e64c47f23" width="500" alt="Screenshot 2024-04-30 201142">
 </p>
-
+<p align="center">
+  <em>Picture 3: You have been blocked</em>
+</p>
