@@ -1,6 +1,6 @@
 # honeypot
 
-This project is a simple web application designed to detect and log web scrapers by using honeypot links. Originally implemented in Python, this project has been transformed into a web-based application using Flask, HTML, CSS, and JavaScript.
+This project is a simple web application designed to detect and log web scrapers by using honeypot links. Originally implemented in Python, this project has been transformed into a web-based application using Flask, HTML, CSS and JavaScript.
 
 ## Features
 
