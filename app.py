@@ -1,11 +1,12 @@
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, request, render_template
 import logging
+import sys
 import os
 
 app = Flask(__name__)
 
-# Set up logging
-logging.basicConfig(filename='honeypot.log', level=logging.INFO, format='%(asctime)s %(message)s')
+# Set up logging to stdout
+logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(asctime)s %(message)s')
 
 SUSPECTED_IPS_FILE = 'suspected_ips.txt'
 
@@ -40,4 +41,4 @@ def log_request(req):
     logging.info(f"Honeypot accessed: {req.path} | IP: {req.remote_addr} | Agent: {req.headers.get('User-Agent')}")
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
